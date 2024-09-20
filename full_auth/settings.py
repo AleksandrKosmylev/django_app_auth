@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'djoser',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -148,6 +149,7 @@ DJOSER = {
     'ACTIVATION_URL': 'ACTIVATION/{uid}/{token}',
     'USER_CREATE_PASSWORD_RETYPE': True,
     'PASSWORD_RESET_CONFIRM_RETYPE': True,
+    'TOLKON_MODEL': None
 }
 
 # Default primary key field type
